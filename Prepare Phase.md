@@ -18,7 +18,7 @@ Can be accessed here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/
 ---
 
 ### How is the data organized?
-- Data is stored in **monthly CSV files**
+- Data is stored in **CSV files**; some sorted monthly and some sorted by quarters
 - Each file contains individual ride records with fields such as:
   - `ride_id`, `rideable_type`, `started_at`, `ended_at`
   - `start_station_name`, `end_station_name`
@@ -28,7 +28,7 @@ Can be accessed here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/
 
 ### ROCCC Data Credibility Check
 - **R**eliable: Provided directly by Divvy, the official source
-- **O**riginal: Raw trip-level data from actual users
+- **O**riginal: Raw trip-level data from actual users, thus makes it primary data
 - **C**omprehensive: Covers all rides with rich metadata
 - **C**urrent: Files are recent and updated monthly
 - **C**ited: Hosted on a government-affiliated platform
@@ -42,10 +42,10 @@ Can be accessed here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/
 
 ---
 
-### 🧪 How was the data verified?
+### How was the data verified?
 - Data was inspected for:
-  - Missing values
-  - Inconsistent timestamps (e.g., negative ride durations)
+  - Missing values (apply filter on Excel and check for "blanks" in options)
+  - Inconsistent timestamps (e.g., negative ride durations) 
   - Duplicate entries
 - Only records with valid timestamps and locations are retained
 
@@ -62,7 +62,7 @@ Can be accessed here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/
 ---
 
 ### Problems or limitations in the data
-- Some rides have:
+- Some fields may have (Excel and SQL cleaning will confirm and fix these problems):
   - Missing station names
   - Zero or negative durations
 - Station names may vary slightly across months
