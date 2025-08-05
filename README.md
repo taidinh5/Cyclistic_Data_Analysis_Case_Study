@@ -1,55 +1,42 @@
-🚴‍♂️ Cyclistic Bike-Share Analysis Case Study
-📌 Introduction
-Welcome to the Cyclistic bike-share analysis case study! This project follows the full data analysis process—Ask, Prepare, Process, Analyze, Share, and Act—to provide data-driven marketing recommendations. You'll explore historical ride data to uncover insights about rider behavior.
+# 🚴‍♂️ Cyclistic Bike-Share Analysis Case Study
 
-🧠 Scenario
-You are a junior data analyst on Cyclistic's marketing analytics team in Chicago. The director of marketing, Lily Moreno, aims to increase the number of annual members. Your team’s goal is to understand how casual riders differ from annual members and design strategies to convert them into loyal customers.
+## 📌 Introduction  
+Welcome to the **Cyclistic bike-share analysis** case study! This project applies the complete data analysis process — **Ask, Prepare, Process, Analyze, Share, and Act** — to generate actionable, data-driven marketing recommendations. You'll explore historical ride data to uncover key insights into rider behavior.
 
-👥 Key Characters and Teams
-Cyclistic: Chicago-based bike-share company with 5,800+ bikes and 600+ stations. Offers traditional and adaptive bikes for inclusivity.
+## 🧠 Scenario  
+You are a **junior data analyst** on the **Cyclistic marketing analytics team** in Chicago. The **Director of Marketing, Lily Moreno**, wants to increase the number of annual members. Your team’s mission is to analyze how **casual riders** differ from **annual members** and develop strategies to convert them into loyal customers.
 
-Lily Moreno: Director of Marketing, overseeing campaigns and strategy.
+## 👥 Key Stakeholders  
+- **Cyclistic**: Chicago-based bike-share company with **5,800+ bikes** and **600+ stations**, offering both traditional and adaptive bikes  
+- **Lily Moreno**: Director of Marketing, responsible for campaign strategy  
+- **Marketing Analytics Team**: Provides analytical insights for strategy development  
+- **Executive Team**: Reviews and approves data-backed proposals
 
-Marketing Analytics Team: Analysts providing data insights for decision-making.
+## 🏢 About Cyclistic  
+- Launched in **2016**  
+- Fleet of **5,824 GPS-tracked bikes** and **692 docking stations**  
+- Pricing Plans: **Single-Ride**, **Full-Day Pass**, and **Annual Membership**  
+- **Casual Riders** = who purchase single-ride or full-day passes
+- **Annual Members** = who purchase annual memberships (more profitable)
 
-Executive Team: Approves data-backed marketing proposals.
+## 💡 Objective  
+Use the **data analysis process**:  
+- **Ask**: Define the problem  
+- **Prepare**: Collect and understand the data  
+- **Process**: Clean and prepare for analysis  
+- **Analyze**: Identify trends and insights  
+- **Share**: Visualize and communicate findings  
+- **Act**: Recommend next steps
 
-🏢 About Cyclistic
-Launched in 2016
+## 🎯 Project Goal  
+Develop a **marketing strategy** to convert casual riders into annual members by analyzing:  
+- **User behavior patterns**  
+- **Trip data trends**  
+- **Digital marketing opportunities**
 
-Fleet of 5,824 GPS-tracked bikes and 692 docking stations
+## 📈 Project Outcome  
+By the end of this project, you will deliver:  
+- A **summary of behavioral differences** between rider types  
+- **Data-driven marketing recommendations**  
+- **Clean, visualized reports** for the executive team
 
-Offers three pricing plans: Single-ride, Full-day, and Annual Membership
-
-Casual riders = short-term users
-
-Members = long-term users (more profitable)
-
-🎯 Project Goal
-Design a marketing strategy to convert casual riders into annual members using:
-
-User behavior insights
-
-Trip patterns
-
-Digital marketing channels
-
-🛠️ Tools & Techniques Used
-Spreadsheet tools (Excel/Google Sheets)
-
-SQL for data extraction
-
-R or Python for analysis and visualization
-
-Tableau or Google Data Studio for dashboards
-
-Clear documentation and data storytelling
-
-📈 Outcome
-At the end of this project, you'll present:
-
-A summary of key differences between rider types
-
-Data-backed recommendations to convert casual riders
-
-Clean, visualized reports for executive approval
