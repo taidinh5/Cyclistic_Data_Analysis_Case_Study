@@ -9,6 +9,8 @@ so that the marketing team can design targeted strategies to convert more casual
 - **Marketing Analytics Team:** Will use your insights for campaign development.
 - **Executive Team:** Needs clear, data-backed insights to approve marketing strategy.
 
-### 🔍 Guiding Questions (to keep in mind as you proceed)
+### 🔍 Guiding Questions
+- What is the problem we're trying to solve? (business task)
+- How can our insights drive business decisions?
 - What are the key behavior differences (trip duration, ride frequency, time of day, day of week, location)?
 - What might these differences suggest about casual riders’ needs or preferences?
