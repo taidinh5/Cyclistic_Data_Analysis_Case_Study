@@ -1,7 +1,7 @@
 ## Ask Phase
 
 ### 💡 Business Task Statement (Deliverable #1)
-Determine how annual members and casual riders use Cyclistic bikes differently,  
+Assigned by our marketing director, I have to determine how annual members and casual riders use Cyclistic bikes differently,  
 so that the marketing team can design targeted strategies to convert more casual riders into annual members.
 
 ### 👥 Key Stakeholders
