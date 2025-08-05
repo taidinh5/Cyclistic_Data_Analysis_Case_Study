@@ -1,10 +1,10 @@
 # 🚴‍♂️ Cyclistic Bike-Share Analysis Case Study
 
 ## 📌 Introduction  
-Welcome to the **Cyclistic bike-share analysis** case study! This project applies the complete data analysis process — **Ask, Prepare, Process, Analyze, Share, and Act** — to generate actionable, data-driven marketing recommendations. You'll explore historical ride data to uncover key insights into rider behavior.
+This project will apply the complete data analysis process (**Ask, Prepare, Process, Analyze, Share, and Act**) to generate actionable, data-driven marketing recommendations. I'll be exploring historical ride data to uncover key insights into rider behavior.
 
 ## 🧠 Scenario  
-You are a **junior data analyst** on the **Cyclistic marketing analytics team** in Chicago. The **Director of Marketing, Lily Moreno**, wants to increase the number of annual members. Your team’s mission is to analyze how **casual riders** differ from **annual members** and develop strategies to convert them into loyal customers.
+I am a **junior data analyst** on the **Cyclistic marketing analytics team** in Chicago. The **Director of Marketing, Lily Moreno**, wants to increase the number of annual members. My team’s mission is to analyze how **casual riders** differ from **annual members** and develop strategies to convert them into loyal customers.
 
 ## 👥 Key Stakeholders  
 - **Cyclistic**: Chicago-based bike-share company with **5,800+ bikes** and **600+ stations**, offering both traditional and adaptive bikes  
@@ -35,7 +35,7 @@ Develop a **marketing strategy** to convert casual riders into annual members by
 - **Digital marketing opportunities**
 
 ## 📈 Project Outcome  
-By the end of this project, you will deliver:  
+By the end of this project, the following will be delivered:  
 - A **summary of behavioral differences** between rider types  
 - **Data-driven marketing recommendations**  
 - **Clean, visualized reports** for the executive team
