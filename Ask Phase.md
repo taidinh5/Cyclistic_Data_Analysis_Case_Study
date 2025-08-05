@@ -1,4 +1,4 @@
-##Ask Phase
+## Ask Phase
 
 ### 💡 Business Task Statement (Deliverable #1)
 Determine how annual members and casual riders use Cyclistic bikes differently,  
