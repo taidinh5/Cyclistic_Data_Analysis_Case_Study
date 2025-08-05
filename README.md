@@ -4,7 +4,7 @@
 This project will apply the complete data analysis process (**Ask, Prepare, Process, Analyze, Share, and Act**) to generate actionable, data-driven marketing recommendations. I'll be exploring historical ride data to uncover key insights into rider behavior.
 
 ## 🧠 Scenario  
-I am a **junior data analyst** on the **Cyclistic marketing analytics team** in Chicago. The **Director of Marketing, Lily Moreno**, wants to increase the number of annual members. My team’s mission is to analyze how **casual riders** differ from **annual members** and develop strategies to convert them into loyal customers.
+I am a **junior data analyst** on the **Cyclistic marketing analytics team** (fictional) in Chicago. The **Director of Marketing, Lily Moreno**, wants to increase the number of annual members. My team’s mission is to analyze how **casual riders** differ from **annual members** and develop strategies to convert them into loyal customers.
 
 ## 👥 Key Stakeholders  
 - **Cyclistic**: Chicago-based bike-share company with **5,800+ bikes** and **600+ stations**, offering both traditional and adaptive bikes  
