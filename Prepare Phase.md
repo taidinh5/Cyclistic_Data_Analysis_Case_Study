@@ -1,5 +1,6 @@
 ## 🗂️ Prepare Phase – Data Sources
 
+---
 
 ### 📍 Where is the data located?
 The data is publicly available from the Divvy bike-share program in Chicago.  
