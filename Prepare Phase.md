@@ -1,7 +1,5 @@
 ## 🗂️ Prepare Phase – Data Sources
-
 <br>
-
 ### 📍 Where is the data located?
 The data is publicly available from the Divvy bike-share program in Chicago.  
 Can be accessed here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html)
