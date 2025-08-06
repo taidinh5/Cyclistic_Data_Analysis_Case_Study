@@ -1,4 +1,4 @@
-## Prepare Phase
+## 🗂️ Prepare Phase – Data Sources
 
 ## 🔍 Guiding Questions
 - Where is your data located?
