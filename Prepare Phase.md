@@ -19,7 +19,7 @@ Can be accessed here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/
 
 ### ✅ ROCCC Data Credibility Check
 - **R**eliable: Provided directly by Divvy, the official source
-- **O**riginal: Raw trip-level data from actual users, thus makes it primary data
+- **O**riginal: Conducted on 1st party basis, thus raw trip-level data from actual users, indicating high integrity
 - **C**omprehensive: Covers all rides with rich metadata
 - **C**urrent: Files are recent and updated monthly
 - **C**ited: Hosted on a government-affiliated platform
