@@ -44,11 +44,11 @@ Can be accessed here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/
 
 ### 🎯 How does this data help answer the business task?
 - The `member_casual` field lets us compare behavior between user types
-- Fields like `started_at`, `rideable_type`, and station locations help analyze:
+- Fields like `started_at`, `rideable_type`, and maybe station locations help analyze:
   - Ride duration
   - Ride frequency
   - Time of day and day of week trends
-  - Station usage patterns
+  - Station usage patterns (again, may not be as important towards marketing strategy)
 
 
 
