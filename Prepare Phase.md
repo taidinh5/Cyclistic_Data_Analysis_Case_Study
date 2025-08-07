@@ -53,8 +53,5 @@ Can be accessed here: [Divvy Trip Data](https://divvy-tripdata.s3.amazonaws.com/
 
 
 ### ⚠️ Problems or limitations in the data
-- Some fields may have (Excel and SQL cleaning will confirm and fix these problems):
-  - Missing station names
-  - Zero or negative durations
-- Station names may vary slightly across months
-- Trip data doesn’t capture **demographics** or **user motivations**
+- Due to customer protection laws, we can't see how many times customers made purchases
+- Nulls and general errors with overall data
