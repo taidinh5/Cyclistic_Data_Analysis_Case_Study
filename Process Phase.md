@@ -21,9 +21,17 @@
    
 <img width="507" height="264" alt="{E53A13D6-8517-42CA-8DFE-1461F1D95047}" src="https://github.com/user-attachments/assets/7b6412d2-6a3b-4be5-b77c-84cd25d04920" />
 
-2. It appears only these columns have NULLS
+2a. It appears only these columns have NULLS
    
 <img width="1139" height="66" alt="{89400E6D-981F-4BC8-A93A-F43D32036773}" src="https://github.com/user-attachments/assets/2a74c50d-c5d0-4f0f-8dbe-47ff0fec15ba" />
+
+3. Check for duplicate rows
+
+<img width="502" height="328" alt="{8AFDC9AB-E8AA-4999-BC8A-972090CA9843}" src="https://github.com/user-attachments/assets/32867a3a-0edb-4c27-a495-b456763c6641" />
+
+3. It appears there are no duplicate rows
+   
+<img width="226" height="38" alt="{D59A0AF6-A6AF-42AA-9996-19CBB38438DA}" src="https://github.com/user-attachments/assets/862713f4-7a9f-4091-afba-ab785884e3da" />
 
 ---
 
