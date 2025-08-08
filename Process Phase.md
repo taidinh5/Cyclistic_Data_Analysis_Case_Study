@@ -7,6 +7,7 @@
 <img width="806" height="682" alt="combinetripdata" src="https://github.com/user-attachments/assets/a52b6215-35f9-46b1-bc31-2ca096d1d5e4" />
 <img width="545" height="299" alt="countoftotalrows" src="https://github.com/user-attachments/assets/c7217546-14a8-454e-92d9-7f1cedd8ec80" />
 
+3. There are 5,860,568 rows total
 
 ### 🧹 Data Cleaning Steps
 1. Filter to check for missing or negative values in key columns (e.g. `started_at`, `ended_at`, `member_casual`)
