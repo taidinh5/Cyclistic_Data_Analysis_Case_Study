@@ -22,24 +22,24 @@ I'll use a framework that guides the data cleaning process using five steps: **C
 
 ### C – Conceptualize the Data
 
-- Here, conceptualizing and understanding the dataset is the first step to identifying what I actually need to care about and prioritize. I'll examine what columns to keep and remove irrelevant ones. 
+- Here, conceptualizing and understanding the dataset is the first step to identifying what I actually need to care about and prioritize. I'll examine which columns to keep and which columns to remove.
 - Understand the business task:  
-  _Determine how annual members and casual riders use Cyclistic bikes differently to help convert more casual riders into annual members._
+  _Determine how annual members and casual riders *use* Cyclistic bikes differently to help convert more casual riders into annual members._
 
 - Ass:
-  - `ride_id`
-  - `rideable_type`
-  - `started_at`
-  - `ended_at` 
-  - `start_station_name`
-  - `start_station_id`
-  - `end_station_name`
-  - `end_station_id`
-  - `start_lat`
-  - `start_lng`
-  - `end_lat`
-  - `end_lng`
-  - `member_casual` (Tar
+  - `ride_id` (irrelevant)
+  - `rideable_type` (shows which bikes are preferred by each user type, important for usage pattern)
+  - `started_at` (needed to extract usage-based trends like month, day, hour, important for comparing when each user type rides)
+  - `ended_at` (needed to extract usage-based trends like month, day, hour, important for comparing when each user type rides)
+  - `start_station_name` (irrelevant)
+  - `start_station_id` (irrelevant)
+  - `end_station_name` (irrelevant)
+  - `end_station_id` (irrelevant)
+  - `start_lat` (irrelevant)
+  - `start_lng` (irrelevant)
+  - `end_lat` (irrelevant)
+  - `end_lng` (irrelevant)
+  - `member_casual` (target group, business task is centered on comparing this group)
 
 ---
 
