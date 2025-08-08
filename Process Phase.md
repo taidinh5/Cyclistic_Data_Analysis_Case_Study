@@ -107,7 +107,7 @@ I'll use a framework that guides the data cleaning process using five steps: **C
 
   <img width="373" height="54" alt="{2091E777-A757-4C3B-BD49-EE384FC7CC3B}" src="https://github.com/user-attachments/assets/411fe353-90c2-4050-9725-96cb70c1696c" />
   
-
+- Fortunately, the irrelevant columns that were removed had all of the null values, and there are no duplicates
 ---
 
 ### E – Evaluate Unsolvable Issues
