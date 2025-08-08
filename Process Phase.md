@@ -53,7 +53,8 @@
 
 <img width="516" height="154" alt="{C4B80188-3605-4051-855E-D5CA58741824}" src="https://github.com/user-attachments/assets/79487f21-4486-4175-854c-db3cec470caf" />
 
-6. It appears we have approx 13k rides that are longer than a day or shorter than a second
+6. It appears we have 13,842 rides that are longer than a day or shorter than a second
+   (rides longer than 24 hours could possibly mean that customers are renting bikes for the whole day and returning them the next day, which is logical; however, rides under 1 second (which include negative durations) could strongly indicate glitches or data entry errors)
 
 <img width="196" height="59" alt="{9E165808-7930-4B4F-9A01-A6D084A7BFB8}" src="https://github.com/user-attachments/assets/7fccf65a-76f2-4555-9b64-f5bfb94232ca" />
 
@@ -103,24 +104,26 @@ I'll use a framework that guides the data cleaning process using five steps: **C
   
   <img width="386" height="164" alt="{6E173B79-DFF7-4801-B177-CEAA4861E575}" src="https://github.com/user-attachments/assets/e9633939-c25d-481c-98d6-d53ec0426c4d" />
 
+- Remove rides where duration < 1 second
+  
+  <img width="411" height="36" alt="{5F23380C-AD4B-4116-9035-A8928E5C29E2} (1)" src="https://github.com/user-attachments/assets/d6d81519-536d-4e6a-aebf-24aaccd23f51" />
+
 - Standardize column names and data types (data types are already good)
 
   <img width="373" height="54" alt="{2091E777-A757-4C3B-BD49-EE384FC7CC3B}" src="https://github.com/user-attachments/assets/411fe353-90c2-4050-9725-96cb70c1696c" />
-  
+
 - Fortunately, the irrelevant columns that were removed had all of the null values, and there are no duplicates
 ---
 
 ### E – Evaluate Unsolvable Issues
 
-- Drop rows with critical missing data that can't be imputed
-- Discard extreme outliers if unjustifiable (e.g., 24+ hr rides)
-- Note any inconsistencies that couldn't be resolved (e.g., incomplete station data)
+- Discard extreme outliers if unjustifiable (e.g., 24+ hr rides and <= 1 second rides)
 
 ---
 
 ### A – Augment the Data
 
-- Extract time components (`month`, `day`, `hour`) from datetime
+- Extract time components (`month`, `day`, `hour`, `ride_duration`) from `started_at` and `ended_at`
 - Bucket ride durations (e.g., Under 10, 10 to 30, etc.)
 - Merge monthly files into one complete dataset
 - Create backup of the cleaned table for version control
