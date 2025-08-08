@@ -16,7 +16,10 @@
 1. Check table schema and metadata
 <img width="448" height="419" alt="{44DD2051-6E63-4042-A414-D6556BB729B4}" src="https://github.com/user-attachments/assets/caca558b-42c9-42b4-b18b-d6d89ce80653" />
 <img width="604" height="613" alt="{0268ABEB-BA10-4962-8616-3DC6EBF81DA8}" src="https://github.com/user-attachments/assets/04f7c28b-0ceb-46d3-a8d1-f38dd0048875" />
-
+2. Check number of NULLS across all columns
+<img width="507" height="264" alt="{E53A13D6-8517-42CA-8DFE-1461F1D95047}" src="https://github.com/user-attachments/assets/7b6412d2-6a3b-4be5-b77c-84cd25d04920" />
+2. It appears only these columns have NULLS
+<img width="1139" height="66" alt="{89400E6D-981F-4BC8-A93A-F43D32036773}" src="https://github.com/user-attachments/assets/2a74c50d-c5d0-4f0f-8dbe-47ff0fec15ba" />
 
 ---
 
