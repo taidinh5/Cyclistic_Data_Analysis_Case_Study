@@ -8,9 +8,17 @@
 <img width="545" height="299" alt="countoftotalrows" src="https://github.com/user-attachments/assets/c7217546-14a8-454e-92d9-7f1cedd8ec80" />
 
 3. There are 5,860,568 rows total
-4. Before cleaning and manipulation, I'll create a backup
+4. Before EDA, cleaning and manipulation, I'll create a backup
 <img width="465" height="43" alt="tripdatamergedbackup" src="https://github.com/user-attachments/assets/716cbe9b-bfd9-4ed0-bda5-7a35e45b3763" />
 <img width="214" height="64" alt="{DAB08F82-67E6-412D-A1AA-0F4942FB41C8}" src="https://github.com/user-attachments/assets/fd30ae45-fc63-4e09-93ae-db2e1ef7e374" />
+
+---
+
+### 🔭 Exploratory Data Analysis
+1. Check table schema and metadata
+<img width="448" height="419" alt="{44DD2051-6E63-4042-A414-D6556BB729B4}" src="https://github.com/user-attachments/assets/caca558b-42c9-42b4-b18b-d6d89ce80653" />
+<img width="604" height="613" alt="{0268ABEB-BA10-4962-8616-3DC6EBF81DA8}" src="https://github.com/user-attachments/assets/04f7c28b-0ceb-46d3-a8d1-f38dd0048875" />
+
 
 ---
 
@@ -26,7 +34,7 @@ I'll use a framework that guides the data cleaning process using five steps: **C
 - Understand the business task:  
   _Determine how annual members and casual riders *use* Cyclistic bikes differently to help convert more casual riders into annual members._
 
-- Ass:
+- Assess Columns:
   - `ride_id` (irrelevant)
   - `rideable_type` (shows which bikes are preferred by each user type, important for usage pattern)
   - `started_at` (needed to extract usage-based trends like month, day, hour, important for comparing when each user type rides)
@@ -45,8 +53,7 @@ I'll use a framework that guides the data cleaning process using five steps: **C
 
 ### L – Locate Solvable Issues
 
-- Remove irrelevant columns (e.g., station names/IDs if not needed)
-- Handle missing values in `start_station_name`, `end_station_id`, etc.
+- Remove irrelevant columns (e.g., station names/IDs/coordinates)
 - Standardize column names and data types
 - Ensure ride duration is consistently formatted (buckets or minutes)
 - Fix incorrect or default dates (e.g., "12/30/1899")
