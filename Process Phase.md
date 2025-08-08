@@ -22,14 +22,24 @@ I'll use a framework that guides the data cleaning process using five steps: **C
 
 ### C – Conceptualize the Data
 
+- Here, conceptualizing and understanding the dataset is the first step to identifying what I actually need to care about and prioritize. I'll examine what columns to keep and remove irrelevant ones. 
 - Understand the business task:  
   _Determine how annual members and casual riders use Cyclistic bikes differently to help convert more casual riders into annual members._
 
-- Identify key variables:  
-  - `member_casual` (target group)
-  - `bike_type` (rideable_type)
-  - `ride duration (min)`
-  - `month`, `day`, `hour` (temporal patterns)
+- Ass:
+  - `ride_id`
+  - `rideable_type`
+  - `started_at`
+  - `ended_at` 
+  - `start_station_name`
+  - `start_station_id`
+  - `end_station_name`
+  - `end_station_id`
+  - `start_lat`
+  - `start_lng`
+  - `end_lat`
+  - `end_lng`
+  - `member_casual` (Tar
 
 ---
 
