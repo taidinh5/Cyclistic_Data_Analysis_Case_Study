@@ -1,7 +1,8 @@
 ## 🔄 Process Phase – Data Cleaning & Integrity
 
 ### 🔍 Combine All CSV Files
-- I will be using Google BigQuery to combine the 12 csv files into one big file.
+1. I will be using Google BigQuery to combine the 12 csv files into one big file.
+2. First, I uploaded all 12 csv files into a dataset called "CyclisticTripData2024" and used SQL to merge them into one big file called "tripdata_merged".
 
 <img width="806" height="682" alt="combinetripdata" src="https://github.com/user-attachments/assets/a52b6215-35f9-46b1-bc31-2ca096d1d5e4" />
 
