@@ -12,13 +12,13 @@
 <img width="465" height="43" alt="tripdatamergedbackup" src="https://github.com/user-attachments/assets/716cbe9b-bfd9-4ed0-bda5-7a35e45b3763" />
 <img width="214" height="64" alt="{DAB08F82-67E6-412D-A1AA-0F4942FB41C8}" src="https://github.com/user-attachments/assets/fd30ae45-fc63-4e09-93ae-db2e1ef7e374" />
 
-# Data Cleaning Framework: CLEAN
+### Data Cleaning Framework: CLEAN
 
 This framework guides the data cleaning process using five steps: **Conceptualize**, **Locate**, **Evaluate**, **Augment**, and **Note**.
 
 ---
 
-## C – Conceptualize the Data
+### C – Conceptualize the Data
 
 - Understand the business task:  
   _Determine how annual members and casual riders use Cyclistic bikes differently to help convert more casual riders into annual members._
