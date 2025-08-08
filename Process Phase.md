@@ -16,7 +16,7 @@
 
 ### Data Cleaning Framework: CLEAN
 
-This framework guides the data cleaning process using five steps: **Conceptualize**, **Locate**, **Evaluate**, **Augment**, and **Note**.
+I'll use a framework that guides the data cleaning process using five steps: **Conceptualize**, **Locate**, **Evaluate**, **Augment**, and **Note**.
 
 ---
 
