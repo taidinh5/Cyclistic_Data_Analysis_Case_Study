@@ -29,9 +29,18 @@
 
 <img width="502" height="328" alt="{8AFDC9AB-E8AA-4999-BC8A-972090CA9843}" src="https://github.com/user-attachments/assets/32867a3a-0edb-4c27-a495-b456763c6641" />
 
-3. It appears there are no duplicate rows
+3a. It appears there are no duplicate rows
    
 <img width="226" height="38" alt="{D59A0AF6-A6AF-42AA-9996-19CBB38438DA}" src="https://github.com/user-attachments/assets/862713f4-7a9f-4091-afba-ab785884e3da" />
+
+4. Check `ride_id` character length
+   
+<img width="500" height="71" alt="{BA1F74BB-A0BF-4FD4-AAA4-0E13C70ADC11}" src="https://github.com/user-attachments/assets/b60ff81d-43a3-4b3e-9d29-0073d2848541" />
+
+4a. It appears all ride_id have a length of 16 characters
+
+<img width="192" height="54" alt="{BDDADF17-7539-4BD4-B24C-5B02B961EC59}" src="https://github.com/user-attachments/assets/93b1f69c-f594-4e0d-b1bf-e640f7db0d88" />
+
 
 ---
 
