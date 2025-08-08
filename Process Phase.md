@@ -45,7 +45,7 @@
 
 <img width="496" height="72" alt="{F1E65908-82EC-4D2A-814B-48761A9DEFA1}" src="https://github.com/user-attachments/assets/c170f799-5667-4d95-992d-fbe3b3e77a0d" />
 
-5a. It appears there's only 3 unique types of rideables
+5a. It appears there are only 3 unique types of rideables
 
 <img width="256" height="104" alt="{0647AA59-26FE-4883-A17F-B3505996F494}" src="https://github.com/user-attachments/assets/1a00d055-b9c8-447a-a094-4e9ee2b81dbb" />
 
@@ -57,6 +57,13 @@
 
 <img width="196" height="59" alt="{9E165808-7930-4B4F-9A01-A6D084A7BFB8}" src="https://github.com/user-attachments/assets/7fccf65a-76f2-4555-9b64-f5bfb94232ca" />
 
+7. Check `member_casual` types of users
+
+<img width="502" height="76" alt="{86A97162-A3FD-4DDC-AEA1-1CB3941E0AB6}" src="https://github.com/user-attachments/assets/692c19ae-8148-4053-aa3b-401f98be6a2c" />
+
+7a. It appears there are indeed 2 types of users, which aligns with our business task
+
+<img width="262" height="86" alt="{830CB36A-49AD-4EDF-AFA4-FB39A1121A8A}" src="https://github.com/user-attachments/assets/b7610f46-4554-4f11-83c7-42e575c94f2a" />
 
 
 ---
