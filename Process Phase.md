@@ -21,7 +21,7 @@
    
 <img width="507" height="264" alt="{E53A13D6-8517-42CA-8DFE-1461F1D95047}" src="https://github.com/user-attachments/assets/7b6412d2-6a3b-4be5-b77c-84cd25d04920" />
 
-It appears only these columns have NULLS
+2.1 It appears only these columns have NULLS
    
 <img width="1139" height="66" alt="{89400E6D-981F-4BC8-A93A-F43D32036773}" src="https://github.com/user-attachments/assets/2a74c50d-c5d0-4f0f-8dbe-47ff0fec15ba" />
 
@@ -29,7 +29,7 @@ It appears only these columns have NULLS
 
 <img width="502" height="328" alt="{8AFDC9AB-E8AA-4999-BC8A-972090CA9843}" src="https://github.com/user-attachments/assets/32867a3a-0edb-4c27-a495-b456763c6641" />
 
-It appears there are no duplicate rows
+3.1 It appears there are no duplicate rows
    
 <img width="226" height="38" alt="{D59A0AF6-A6AF-42AA-9996-19CBB38438DA}" src="https://github.com/user-attachments/assets/862713f4-7a9f-4091-afba-ab785884e3da" />
 
@@ -37,7 +37,7 @@ It appears there are no duplicate rows
    
 <img width="500" height="71" alt="{BA1F74BB-A0BF-4FD4-AAA4-0E13C70ADC11}" src="https://github.com/user-attachments/assets/b60ff81d-43a3-4b3e-9d29-0073d2848541" />
 
-It appears all ride_id have a length of 16 characters
+4.1 It appears all ride_id have a length of 16 characters
 
 <img width="192" height="54" alt="{BDDADF17-7539-4BD4-B24C-5B02B961EC59}" src="https://github.com/user-attachments/assets/93b1f69c-f594-4e0d-b1bf-e640f7db0d88" />
 
@@ -45,7 +45,7 @@ It appears all ride_id have a length of 16 characters
 
 <img width="496" height="72" alt="{F1E65908-82EC-4D2A-814B-48761A9DEFA1}" src="https://github.com/user-attachments/assets/c170f799-5667-4d95-992d-fbe3b3e77a0d" />
 
-It appears there are only 3 unique types of rideables
+5.1 It appears there are only 3 unique types of rideables
 
 <img width="256" height="104" alt="{0647AA59-26FE-4883-A17F-B3505996F494}" src="https://github.com/user-attachments/assets/1a00d055-b9c8-447a-a094-4e9ee2b81dbb" />
 
@@ -53,7 +53,7 @@ It appears there are only 3 unique types of rideables
 
 <img width="516" height="154" alt="{C4B80188-3605-4051-855E-D5CA58741824}" src="https://github.com/user-attachments/assets/79487f21-4486-4175-854c-db3cec470caf" />
 
-It appears we have approx 13k rides that are longer than a day or shorter than a second
+6.1 It appears we have approx 13k rides that are longer than a day or shorter than a second
 
 <img width="196" height="59" alt="{9E165808-7930-4B4F-9A01-A6D084A7BFB8}" src="https://github.com/user-attachments/assets/7fccf65a-76f2-4555-9b64-f5bfb94232ca" />
 
@@ -61,7 +61,7 @@ It appears we have approx 13k rides that are longer than a day or shorter than a
 
 <img width="502" height="76" alt="{86A97162-A3FD-4DDC-AEA1-1CB3941E0AB6}" src="https://github.com/user-attachments/assets/692c19ae-8148-4053-aa3b-401f98be6a2c" />
 
-It appears there are indeed 2 types of users, which aligns with our business task
+7.1 It appears there are indeed 2 types of users, which aligns with our business task
 
 <img width="262" height="86" alt="{830CB36A-49AD-4EDF-AFA4-FB39A1121A8A}" src="https://github.com/user-attachments/assets/b7610f46-4554-4f11-83c7-42e575c94f2a" />
 
