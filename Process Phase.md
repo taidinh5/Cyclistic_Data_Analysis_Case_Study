@@ -41,6 +41,15 @@
 
 <img width="192" height="54" alt="{BDDADF17-7539-4BD4-B24C-5B02B961EC59}" src="https://github.com/user-attachments/assets/93b1f69c-f594-4e0d-b1bf-e640f7db0d88" />
 
+5. Check `rideable_type` types of rideables
+
+<img width="256" height="104" alt="{0647AA59-26FE-4883-A17F-B3505996F494}" src="https://github.com/user-attachments/assets/1a00d055-b9c8-447a-a094-4e9ee2b81dbb" />
+
+5a. It appears there's only 3 unique types of rideables
+
+<img width="496" height="72" alt="{F1E65908-82EC-4D2A-814B-48761A9DEFA1}" src="https://github.com/user-attachments/assets/c170f799-5667-4d95-992d-fbe3b3e77a0d" />
+
+
 
 ---
 
