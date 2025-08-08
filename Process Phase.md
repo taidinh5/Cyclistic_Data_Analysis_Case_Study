@@ -21,7 +21,7 @@
    
 <img width="507" height="264" alt="{E53A13D6-8517-42CA-8DFE-1461F1D95047}" src="https://github.com/user-attachments/assets/7b6412d2-6a3b-4be5-b77c-84cd25d04920" />
 
-2.1 It appears only these columns have NULLS
+2a. It appears only these columns have NULLS
    
 <img width="1139" height="66" alt="{89400E6D-981F-4BC8-A93A-F43D32036773}" src="https://github.com/user-attachments/assets/2a74c50d-c5d0-4f0f-8dbe-47ff0fec15ba" />
 
