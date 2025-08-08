@@ -1,5 +1,8 @@
 ## 🔄 Process Phase – Data Cleaning & Integrity
 
+### 🔍 Combine All CSV Files
+
+<img width="806" height="682" alt="combinetripdata" src="https://github.com/user-attachments/assets/a52b6215-35f9-46b1-bc31-2ca096d1d5e4" />
 
 
 ### 🧹 Data Cleaning Steps
@@ -25,6 +28,3 @@
 
 
 
-
-
-<img width="806" height="682" alt="combinetripdata" src="https://github.com/user-attachments/assets/a52b6215-35f9-46b1-bc31-2ca096d1d5e4" />
