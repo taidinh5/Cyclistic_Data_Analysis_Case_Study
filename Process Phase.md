@@ -5,7 +5,6 @@
 2. First, I uploaded all 12 csv files into a dataset called "CyclisticTripData2024" and used SQL to merge them into one big table called "tripdata_merged".
 
 <img width="806" height="682" alt="combinetripdata" src="https://github.com/user-attachments/assets/a52b6215-35f9-46b1-bc31-2ca096d1d5e4" />
-<img width="545" height="299" alt="countoftotalrows" src="https://github.com/user-attachments/assets/c7217546-14a8-454e-92d9-7f1cedd8ec80" />
 
 3. Before EDA, cleaning and manipulation, I'll create a backup
 <img width="465" height="43" alt="tripdatamergedbackup" src="https://github.com/user-attachments/assets/716cbe9b-bfd9-4ed0-bda5-7a35e45b3763" />
