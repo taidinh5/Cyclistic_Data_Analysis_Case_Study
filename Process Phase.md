@@ -49,6 +49,14 @@
 
 <img width="256" height="104" alt="{0647AA59-26FE-4883-A17F-B3505996F494}" src="https://github.com/user-attachments/assets/1a00d055-b9c8-447a-a094-4e9ee2b81dbb" />
 
+6. Check `started_at` and `ended_at` to find ride durations that are longer than a day and shorter than a second
+
+<img width="196" height="59" alt="{9E165808-7930-4B4F-9A01-A6D084A7BFB8}" src="https://github.com/user-attachments/assets/7fccf65a-76f2-4555-9b64-f5bfb94232ca" />
+
+6a. It appears we have approx 13k rides that are longer than a day or shorter than a second
+
+<img width="516" height="154" alt="{C4B80188-3605-4051-855E-D5CA58741824}" src="https://github.com/user-attachments/assets/79487f21-4486-4175-854c-db3cec470caf" />
+
 
 
 ---
