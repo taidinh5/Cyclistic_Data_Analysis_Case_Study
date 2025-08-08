@@ -99,7 +99,10 @@ I'll use a framework that guides the data cleaning process using five steps: **C
 
 ### L – Locate Solvable Issues
 
-- Remove irrelevant columns (e.g., station names/IDs/coordinates)
+- Remove irrelevant columns that don't align with the business task (e.g., station names/IDs/coordinates)
+  
+  <img width="386" height="164" alt="{6E173B79-DFF7-4801-B177-CEAA4861E575}" src="https://github.com/user-attachments/assets/e9633939-c25d-481c-98d6-d53ec0426c4d" />
+
 - Standardize column names and data types
 - Ensure ride duration is consistently formatted (buckets or minutes)
 - Fix incorrect or default dates (e.g., "12/30/1899")
