@@ -103,9 +103,10 @@ I'll use a framework that guides the data cleaning process using five steps: **C
   
   <img width="386" height="164" alt="{6E173B79-DFF7-4801-B177-CEAA4861E575}" src="https://github.com/user-attachments/assets/e9633939-c25d-481c-98d6-d53ec0426c4d" />
 
-- Standardize column names and data types
-- Ensure ride duration is consistently formatted (buckets or minutes)
-- Fix incorrect or default dates (e.g., "12/30/1899")
+- Standardize column names and data types (data types are already good)
+
+  <img width="373" height="54" alt="{2091E777-A757-4C3B-BD49-EE384FC7CC3B}" src="https://github.com/user-attachments/assets/411fe353-90c2-4050-9725-96cb70c1696c" />
+  
 
 ---
 
