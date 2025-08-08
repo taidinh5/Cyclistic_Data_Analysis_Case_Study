@@ -24,5 +24,30 @@
 3. Conditional format to detect invalid entries
 
 
+CREATE TABLE CyclisticTripData2024.tripdata_merged AS (
+  SELECT * FROM CyclisticTripData2024.jan
+  UNION ALL
+  SELECT * FROM CyclisticTripData2024.feb
+  UNION ALL
+  SELECT * FROM CyclisticTripData2024.mar
+  UNION ALL
+  SELECT * FROM CyclisticTripData2024.apr
+  UNION ALL
+  SELECT * FROM CyclisticTripData2024.may
+  UNION ALL
+  SELECT * FROM CyclisticTripData2024.jun
+  UNION ALL
+  SELECT * FROM CyclisticTripData2024.jul
+  UNION ALL
+  SELECT * FROM CyclisticTripData2024.aug
+  UNION ALL
+  SELECT * FROM CyclisticTripData2024.sep
+  UNION ALL
+  SELECT * FROM CyclisticTripData2024.oct
+  UNION ALL
+  SELECT * FROM CyclisticTripData2024.nov
+  UNION ALL
+  SELECT * FROM CyclisticTripData2024.dec
+);
 
 
