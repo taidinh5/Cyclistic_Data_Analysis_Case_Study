@@ -12,6 +12,8 @@
 <img width="465" height="43" alt="tripdatamergedbackup" src="https://github.com/user-attachments/assets/716cbe9b-bfd9-4ed0-bda5-7a35e45b3763" />
 <img width="214" height="64" alt="{DAB08F82-67E6-412D-A1AA-0F4942FB41C8}" src="https://github.com/user-attachments/assets/fd30ae45-fc63-4e09-93ae-db2e1ef7e374" />
 
+---
+
 ### Data Cleaning Framework: CLEAN
 
 This framework guides the data cleaning process using five steps: **Conceptualize**, **Locate**, **Evaluate**, **Augment**, and **Note**.
@@ -31,7 +33,7 @@ This framework guides the data cleaning process using five steps: **Conceptualiz
 
 ---
 
-## L – Locate Solvable Issues
+### L – Locate Solvable Issues
 
 - Remove irrelevant columns (e.g., station names/IDs if not needed)
 - Handle missing values in `start_station_name`, `end_station_id`, etc.
@@ -41,7 +43,7 @@ This framework guides the data cleaning process using five steps: **Conceptualiz
 
 ---
 
-## E – Evaluate Unsolvable Issues
+### E – Evaluate Unsolvable Issues
 
 - Drop rows with critical missing data that can't be imputed
 - Discard extreme outliers if unjustifiable (e.g., 24+ hr rides)
@@ -49,7 +51,7 @@ This framework guides the data cleaning process using five steps: **Conceptualiz
 
 ---
 
-## A – Augment the Data
+### A – Augment the Data
 
 - Extract time components (`month`, `day`, `hour`) from datetime
 - Bucket ride durations (e.g., Under 10, 10 to 30, etc.)
@@ -58,7 +60,7 @@ This framework guides the data cleaning process using five steps: **Conceptualiz
 
 ---
 
-## N – Note and Document
+### N – Note and Document
 
 - Record all changes made (column removals, type conversions, filters)
 - Explain why each cleaning step was taken
