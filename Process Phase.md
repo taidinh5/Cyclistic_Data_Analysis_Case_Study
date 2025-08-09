@@ -104,7 +104,7 @@ I'll use a framework that guides the data cleaning process using five steps: **C
   
   <img width="386" height="164" alt="{6E173B79-DFF7-4801-B177-CEAA4861E575}" src="https://github.com/user-attachments/assets/e9633939-c25d-481c-98d6-d53ec0426c4d" />
 
-- Remove rides where duration < 1 second
+- Remove extreme outliers where ride durations <= 1 second
   
   <img width="411" height="36" alt="{5F23380C-AD4B-4116-9035-A8928E5C29E2} (1)" src="https://github.com/user-attachments/assets/d6d81519-536d-4e6a-aebf-24aaccd23f51" />
 
@@ -117,13 +117,18 @@ I'll use a framework that guides the data cleaning process using five steps: **C
 
 ### E – Evaluate Unsolvable Issues
 
-- Discard extreme outliers if unjustifiable (e.g., 24+ hr rides and <= 1 second rides)
+- Extreme outliers like (e.g., 24+ hr rides) may be logical since customers could be renting bikes for the whole day and returning them the next day.
+- Extreme outliers like (e.g., >= 1 second rides) were removed, since it's not logical and strongly indicates system glitches or data entry errors
 
 ---
 
 ### A – Augment the Data
 
-- Extract time components (`month`, `day`, `hour`, `ride_duration`) from `started_at` and `ended_at`
+- Add new columns of time components (`month`, `day`, `hour`, `ride_duration`) from `started_at` and `ended_at`
+  
+  <img width="360" height="87" alt="{94F0F39C-5700-494D-BAD1-1375089A3870}" src="https://github.com/user-attachments/assets/c7d8c302-3fb4-4e2e-97d8-63183ade0ce3" />
+  <img width="635" height="136" alt="{DF697AB0-1A63-43DE-87D5-E3BC8DA28B00}" src="https://github.com/user-attachments/assets/1af10896-be3d-4cc9-af47-a3627f1e279d" />
+
 - Bucket ride durations (e.g., Under 10, 10 to 30, etc.)
 - Merge monthly files into one complete dataset
 - Create backup of the cleaned table for version control
