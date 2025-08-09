@@ -130,8 +130,10 @@ I'll use a framework that guides the data cleaning process using five steps: **C
   <img width="635" height="136" alt="{DF697AB0-1A63-43DE-87D5-E3BC8DA28B00}" src="https://github.com/user-attachments/assets/1af10896-be3d-4cc9-af47-a3627f1e279d" />
 
 - Bucket ride durations (e.g., Under 10, 10 to 30, etc.)
-- Merge monthly files into one complete dataset
+- Merge monthly files into one complete dataset (completed at the beginning)
 - Create backup of the cleaned table for version control
+  
+<img width="497" height="52" alt="{1E360C5E-27B0-4D47-9A9C-27040D9ADEE6}" src="https://github.com/user-attachments/assets/b8e21852-1088-494e-b0b4-9c4b16a22ff2" />
 
 ---
 
@@ -144,44 +146,3 @@ I'll use a framework that guides the data cleaning process using five steps: **C
 - Mention tools used: BigQuery, Power Query, etc.
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 🧹 Data Cleaning Steps
-1. Filter to check for missing or negative values in key columns (e.g. `started_at`, `ended_at`, `member_casual`)
-2. Sort by ascending order to ensure logical consistency and spot outliers (e.g. potential negative durations, missing values, inconsistent string naming, wrong date range, wrong data type)
-3. Use data type functions (e.g. =isnumber(), =istext()) to ensure data types are correct
-4. Remove duplicates (Data tab -> Remove Duplicates)
-5. Clean any strings with leading/missing spaces or inconsistent capitalization (e.g. =trim(), =clean(), =proper(), Find & Replace)
-6. If there are Primary Keys that cannot be NULL (e.g. =COUNTIF(A:A, A1) ), if any result is > 1, it is duplicated
-7. Check spelling (Review tab -> Spelling)
-8. Apply data validation to columns with categorical values  
-
-
-
-### 👨‍🔧 Data Manipulation Steps
-1. aaa
-
-
-### 🔍 Verification that data is clean
-1. Filter and sort again to inspect 
-2. COUNTBLANK() to detect any remaining missing values
-3. Conditional format to detect invalid entries
-
-
-
