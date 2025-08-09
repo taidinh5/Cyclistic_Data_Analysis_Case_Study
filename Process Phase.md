@@ -54,7 +54,7 @@
 <img width="516" height="154" alt="{C4B80188-3605-4051-855E-D5CA58741824}" src="https://github.com/user-attachments/assets/79487f21-4486-4175-854c-db3cec470caf" />
 
 6. It appears we have 13,842 rides that are longer than a day or shorter than a second
-   (rides longer than 24 hours could possibly mean that customers are renting bikes for the whole day and returning them the next day, which is logical; however, rides under 1 second (which include negative durations) could strongly indicate glitches or data entry errors)
+   (rides longer than 24 hours could possibly mean that customers are renting bikes for the whole day and returning them the next day, which is logical but needs stakeholder clarification; however, rides under 1 second (which include negative durations) could strongly indicate glitches or data entry errors)
 
 <img width="196" height="59" alt="{9E165808-7930-4B4F-9A01-A6D084A7BFB8}" src="https://github.com/user-attachments/assets/7fccf65a-76f2-4555-9b64-f5bfb94232ca" />
 
@@ -117,7 +117,7 @@ I'll use a framework that guides the data cleaning process using five steps: **C
 
 ### E – Evaluate Unsolvable Issues
 
-- Extreme outliers like (e.g., 24+ hr rides) may be logical since customers could be renting bikes for the whole day and returning them the next day.
+- Extreme outliers like (e.g., 24+ hr rides) may be logical since customers could be renting bikes for the whole day and returning them the next day. Needs further stakeholder clarification.
 - Extreme outliers like (e.g., >= 1 second rides) were removed, since it's not logical and strongly indicates system glitches or data entry errors
 
 ---
@@ -129,8 +129,7 @@ I'll use a framework that guides the data cleaning process using five steps: **C
   <img width="360" height="87" alt="{94F0F39C-5700-494D-BAD1-1375089A3870}" src="https://github.com/user-attachments/assets/c7d8c302-3fb4-4e2e-97d8-63183ade0ce3" />
   <img width="635" height="136" alt="{DF697AB0-1A63-43DE-87D5-E3BC8DA28B00}" src="https://github.com/user-attachments/assets/1af10896-be3d-4cc9-af47-a3627f1e279d" />
 
-- Bucket ride durations (e.g., Under 10, 10 to 30, etc.)
-- Merge monthly files into one complete dataset (completed at the beginning)
+- Merge monthly files into one complete dataset (completed at beginning)
 - Create backup of the cleaned table for version control
   
 <img width="497" height="52" alt="{1E360C5E-27B0-4D47-9A9C-27040D9ADEE6}" src="https://github.com/user-attachments/assets/b8e21852-1088-494e-b0b4-9c4b16a22ff2" />
@@ -139,10 +138,6 @@ I'll use a framework that guides the data cleaning process using five steps: **C
 
 ### N – Note and Document
 
-- Record all changes made (column removals, type conversions, filters)
-- Explain why each cleaning step was taken
-- Save cleaned dataset as `all_trips_2024`
-- Backup saved as `all_trips_2024_backup`
-- Mention tools used: BigQuery, Power Query, etc.
+- All steps have been documented along the way
 
 ---
