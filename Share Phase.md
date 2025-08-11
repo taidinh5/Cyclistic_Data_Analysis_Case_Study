@@ -2,6 +2,8 @@
 
 ### 🔨 Tools
 - For data visualizations, I will be using Microsoft Power BI to create a dashboard of our member vs casual analysis.
+- PBIT file can be viewwed here: https://ubuffalo-my.sharepoint.com/:u:/r/personal/taidinh_buffalo_edu/Documents/Case%20Study/CyclisticBikeShareDashboardTaiDinh.pbix?csf=1&web=1&e=piHGfs
+  
 
 ---
 
