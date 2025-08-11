@@ -1,4 +1,7 @@
-### a
+## 👨‍🏫 Share Phase – Visualizations 
+
+### 🔨 Tools
+- For data visualizations, I will be using Microsoft Power BI to create a dashboard of our member vs casual analysis.
 
 ---
 
