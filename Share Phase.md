@@ -1,7 +1,7 @@
 ## 👨‍🏫 Share Phase – Visualizations 
 
 ### 🔨 Tools
-- For data visualizations, I will be using Microsoft Power BI to create a dashboard of our member vs casual analysis.
+- After data wrangling and manipulation with SQL, I will transfer the new csv file into Microsoft Power BI for data visualization of our member vs casual analysis.
 - [Dashboard](https://app.powerbi.com/groups/2968f431-573f-4c05-be97-67306bc23472/reports/d17839a6-750c-4c01-8428-4e16083a7539/7a52b3219a768746271a?experience=power-bi)
 
 ---
